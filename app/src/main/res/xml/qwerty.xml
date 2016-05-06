@@ -1,0 +1,55 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+
+    <Row>
+        <!-- q w e r t y u i o p -->
+
+        <Key android:codes="1591" android:keyLabel="ف"
+android:keyEdgeFlags="left"/>
+        <Key android:codes="1597" android:keyLabel="ث"/>
+        <Key android:codes="1579" android:keyLabel="ه"/>
+        <Key android:codes="1592" android:keyLabel="ص"/>
+        <Key android:codes="1594" android:keyLabel="ت"/>
+        <Key android:codes="1599" android:keyLabel="ذ"/>
+        <Key android:codes="1595" android:keyLabel="ش"/>
+        <Key android:codes="1583" android:keyLabel="أنا"/>
+        <Key android:codes="1589" android:keyLabel="س"/>
+        <Key android:codes="1590" android:keyLabel="ص" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="1575" android:keyLabel="ا" android:keyEdgeFlags="left"/>
+        <Key android:codes="1593" android:keyLabel="س"/>
+        <Key android:codes="1578" android:keyLabel="ت"/>
+        <Key android:codes="1580" android:keyLabel="ج"/>
+        <Key android:codes="1581" android:keyLabel="ح"/>
+        <Key android:codes="1582" android:keyLabel="خ"/>
+        <Key android:codes="1584" android:keyLabel="ي"/>
+        <Key android:codes="1585" android:keyLabel="ك"/>
+        <Key android:codes="1586" android:keyLabel="ل"/>
+        <Key android:codes="64" android:keyLabel="/?"/>
+
+    </Row>
+    <Row>
+        <Key android:codes="-1" android:keyLabel="CAPS" android:keyEdgeFlags="left"/>
+        <Key android:codes="1600" android:keyLabel="ض"/>
+        <Key android:codes="1598" android:keyLabel="س"/>
+        <Key android:codes="1577" android:keyLabel="ج"/>
+        <Key android:codes="1596" android:keyLabel="ؼ"/>
+        <Key android:codes="1576" android:keyLabel="ب"/>
+        <Key android:codes="1588" android:keyLabel="ن"/>
+        <Key android:codes="1587" android:keyLabel="م"/>
+        <Key android:codes="46" android:keyLabel="."/>
+        <Key android:codes="63" android:keyLabel="!" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p" />
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
+        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>
+        <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
